@@ -32,12 +32,10 @@ open class BannerView : WKWebView , WKNavigationDelegate{
     
     public  func showBanner(banner : Banner ,scale : Double = 1.0){
         let string = banner.getScript(scale: scale)
-        print(string)
         loadHTMLString(string, baseURL: URL(string: "https://get4click.ru"))
     }
     
     public func showDebugBanner(banner : Banner ,scale : Double = 1.0){
-        print("banner \(banner)")
         let string = banner.getDebugScript(scale: scale)
         print(string)
         loadHTMLString(string, baseURL: URL(string: "https://get4click.ru"))

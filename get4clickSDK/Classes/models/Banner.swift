@@ -27,10 +27,9 @@ public class Banner {
     }
     
     private func generateHTML(scale : Double)->String {
-        "<html>" +
+        let string = "<html>" +
         "<HEAD><meta name=\"viewport\" content=\"width=device-width,height=device-height,initial-scale=\(scale), shrink-to-fit=no\"></HEAD>" +
                 "<body>" +
-        "<HEAD><meta name=\"viewport\" content=\" width=device-width,height=device-height,initial-scale=\(scale), shrink-to-fit=no\"></HEAD>" +
                 "<div id=\"promocode-element-container\"></div>" +
                 "script type=\"text/javascript\">\n" +
                 "var _iPromoBannerObj = function() {\n" +
@@ -47,7 +46,7 @@ public class Banner {
                 "</script>\n" +
                 "</body>" +
                 "</html>"
-        return ""
+        return string
     }
 
     func getScript(scale : Double)->String {

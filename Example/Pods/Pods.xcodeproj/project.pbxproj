@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		14C4FF3027EC317300213806 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C4FF2A27EC317300213806 /* Order.swift */; };
-		14C4FF3127EC317300213806 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C4FF2B27EC317300213806 /* Currency.swift */; };
-		14C4FF3227EC317300213806 /* Banner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C4FF2C27EC317300213806 /* Banner.swift */; };
-		14C4FF3327EC317300213806 /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C4FF2E27EC317300213806 /* BannerView.swift */; };
-		14C4FF3427EC317300213806 /* Get4ClickSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C4FF2F27EC317300213806 /* Get4ClickSDK.swift */; };
+		14C4FF3C27EC454800213806 /* Get4ClickSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C4FF3527EC454800213806 /* Get4ClickSDK.swift */; };
+		14C4FF3D27EC454800213806 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C4FF3727EC454800213806 /* Order.swift */; };
+		14C4FF3E27EC454800213806 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C4FF3827EC454800213806 /* Currency.swift */; };
+		14C4FF3F27EC454800213806 /* Banner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C4FF3927EC454800213806 /* Banner.swift */; };
+		14C4FF4027EC454800213806 /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C4FF3B27EC454800213806 /* BannerView.swift */; };
 		1A67E485E1AE04F3B9A2749C844EA90E /* Pods-get4clickSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A0270800B7197BAB5CC4E6CADAB11B81 /* Pods-get4clickSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		31CF09F7BF01532F424605C2F843590C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		40F8E1A2FF5EC0BFF917E55723DFBFE7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -44,11 +44,11 @@
 		017DAFA7A10D76B77945AF05758EFA0F /* Pods-get4clickSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-get4clickSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		0B63AFA556E98E0E601416CDEBABEA4E /* get4clickSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = get4clickSDK.debug.xcconfig; sourceTree = "<group>"; };
 		0C2715016E1059C7B1913F85100B16C6 /* get4clickSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "get4clickSDK-umbrella.h"; sourceTree = "<group>"; };
-		14C4FF2A27EC317300213806 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
-		14C4FF2B27EC317300213806 /* Currency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
-		14C4FF2C27EC317300213806 /* Banner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Banner.swift; sourceTree = "<group>"; };
-		14C4FF2E27EC317300213806 /* BannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
-		14C4FF2F27EC317300213806 /* Get4ClickSDK.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Get4ClickSDK.swift; sourceTree = "<group>"; };
+		14C4FF3527EC454800213806 /* Get4ClickSDK.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Get4ClickSDK.swift; path = get4clickSDK/Classes/Get4ClickSDK.swift; sourceTree = "<group>"; };
+		14C4FF3727EC454800213806 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		14C4FF3827EC454800213806 /* Currency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		14C4FF3927EC454800213806 /* Banner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Banner.swift; sourceTree = "<group>"; };
+		14C4FF3B27EC454800213806 /* BannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
 		16746FDD4DAD59B57CC3AF38B286DD99 /* Pods-get4clickSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-get4clickSDK_Tests.modulemap"; sourceTree = "<group>"; };
 		2C43FB3830E1E959E2848246742074D0 /* get4clickSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "get4clickSDK-dummy.m"; sourceTree = "<group>"; };
 		3112CC2F6D0294A6A02310683494CD9D /* Pods-get4clickSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-get4clickSDK_Example-Info.plist"; sourceTree = "<group>"; };
@@ -108,22 +108,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		14C4FF2927EC317300213806 /* models */ = {
+		14C4FF3627EC454800213806 /* models */ = {
 			isa = PBXGroup;
 			children = (
-				14C4FF2A27EC317300213806 /* Order.swift */,
-				14C4FF2B27EC317300213806 /* Currency.swift */,
-				14C4FF2C27EC317300213806 /* Banner.swift */,
+				14C4FF3727EC454800213806 /* Order.swift */,
+				14C4FF3827EC454800213806 /* Currency.swift */,
+				14C4FF3927EC454800213806 /* Banner.swift */,
 			);
-			path = models;
+			name = models;
+			path = get4clickSDK/Classes/models;
 			sourceTree = "<group>";
 		};
-		14C4FF2D27EC317300213806 /* views */ = {
+		14C4FF3A27EC454800213806 /* views */ = {
 			isa = PBXGroup;
 			children = (
-				14C4FF2E27EC317300213806 /* BannerView.swift */,
+				14C4FF3B27EC454800213806 /* BannerView.swift */,
 			);
-			path = views;
+			name = views;
+			path = get4clickSDK/Classes/views;
 			sourceTree = "<group>";
 		};
 		43E3096B51E685439761E2E4385AE19F /* Targets Support Files */ = {
@@ -196,9 +198,9 @@
 		C842F5E43239F4B889359571879B252C /* get4clickSDK */ = {
 			isa = PBXGroup;
 			children = (
-				14C4FF2F27EC317300213806 /* Get4ClickSDK.swift */,
-				14C4FF2927EC317300213806 /* models */,
-				14C4FF2D27EC317300213806 /* views */,
+				14C4FF3527EC454800213806 /* Get4ClickSDK.swift */,
+				14C4FF3627EC454800213806 /* models */,
+				14C4FF3A27EC454800213806 /* views */,
 				E566DB6AB318262CDD169445E1D4D5E4 /* Pod */,
 				9D96ADC6716DE62CBD0D30E188AFC6D0 /* Support Files */,
 			);
@@ -345,6 +347,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					63814F48D9C12569264BA9FDB71AF68B = {
+						LastSwiftMigration = 1320;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -395,12 +402,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14C4FF3127EC317300213806 /* Currency.swift in Sources */,
-				14C4FF3027EC317300213806 /* Order.swift in Sources */,
-				14C4FF3327EC317300213806 /* BannerView.swift in Sources */,
-				14C4FF3427EC317300213806 /* Get4ClickSDK.swift in Sources */,
-				14C4FF3227EC317300213806 /* Banner.swift in Sources */,
+				14C4FF3E27EC454800213806 /* Currency.swift in Sources */,
+				14C4FF3D27EC454800213806 /* Order.swift in Sources */,
+				14C4FF4027EC454800213806 /* BannerView.swift in Sources */,
+				14C4FF3F27EC454800213806 /* Banner.swift in Sources */,
 				7FE7E99FE5FE965ADEF6EFAC17878A4C /* get4clickSDK-dummy.m in Sources */,
+				14C4FF3C27EC454800213806 /* Get4ClickSDK.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,6 +449,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 32C093F6C5B891CAABCA0E6BD40F49D3 /* get4clickSDK.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -474,6 +482,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0B63AFA556E98E0E601416CDEBABEA4E /* get4clickSDK.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -494,6 +503,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
