@@ -12,7 +12,7 @@
 
 Установка происходит через cocoapods или скачав framework
 ```swift
-    pod get4clickSDK
+    pod "get4clickSDK"
 ```
 
 

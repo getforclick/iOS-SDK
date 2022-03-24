@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'get4clickSDK'
-  s.version          = '1.0'
+  s.version          = '0.9.1'
   s.summary          = 'SDK for get4Click.ru writed in Swift'
 
 # This description is used to generate tags and improve search results.
