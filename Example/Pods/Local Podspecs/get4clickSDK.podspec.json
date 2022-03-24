@@ -1,0 +1,22 @@
+{
+  "name": "get4clickSDK",
+  "version": "0.1.0",
+  "summary": "A short description of get4clickSDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/igorexax3mal/get4clickSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "igorexax3mal": "igorexax3m@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/igorexax3mal/get4clickSDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "get4clickSDK/Classes/**/*"
+}

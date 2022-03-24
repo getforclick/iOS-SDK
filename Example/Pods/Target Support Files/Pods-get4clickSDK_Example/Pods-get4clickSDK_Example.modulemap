@@ -1,0 +1,6 @@
+framework module Pods_get4clickSDK_Example {
+  umbrella header "Pods-get4clickSDK_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

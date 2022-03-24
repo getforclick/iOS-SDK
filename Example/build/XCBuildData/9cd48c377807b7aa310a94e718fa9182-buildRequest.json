@@ -1,0 +1,52 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : false,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e988502f554d4607d6c42f7f2274adb2cff"
+    },
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e98ea1db3c45fccae6da1c7b478a850d156"
+    },
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e9890638d6e0ad3a24056c592f11ea66ff7"
+    }
+  ],
+  "containerPath" : "/Users/igorfedorov/Documents/get4clickSDKGit/Example/Pods/Pods.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/igorfedorov/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/igorfedorov/Library/Developer/Xcode/DerivedData/Pods-dxfzdhbeqsqemwfxdlggwgvgcera/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/igorfedorov/Library/Developer/Xcode/DerivedData/Pods-dxfzdhbeqsqemwfxdlggwgvgcera/Index/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Release",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : false,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : false
+}

@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'get4clickSDK_Example' do
+  pod 'get4clickSDK', :path => '../'
+
+  target 'get4clickSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

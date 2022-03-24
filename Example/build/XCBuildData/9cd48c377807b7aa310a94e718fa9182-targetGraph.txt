@@ -1,0 +1,6 @@
+Target dependency graph (3 targets)
+get4clickSDK in Pods, no dependencies
+Pods-get4clickSDK_Example in Pods, depends on:
+get4clickSDK in Pods (explicit)
+Pods-get4clickSDK_Tests in Pods, depends on:
+Pods-get4clickSDK_Example in Pods (explicit)

@@ -1,0 +1,6 @@
+framework module get4clickSDK {
+  umbrella header "get4clickSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

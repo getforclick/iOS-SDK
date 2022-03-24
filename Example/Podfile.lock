@@ -1,0 +1,16 @@
+PODS:
+  - get4clickSDK (0.1.0)
+
+DEPENDENCIES:
+  - get4clickSDK (from `../`)
+
+EXTERNAL SOURCES:
+  get4clickSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  get4clickSDK: 9be6651d6f68c845357518b31e7445f3073aa224
+
+PODFILE CHECKSUM: e2ac6d6344b6a446fd3784b1eab8f6c03251efac
+
+COCOAPODS: 1.10.1

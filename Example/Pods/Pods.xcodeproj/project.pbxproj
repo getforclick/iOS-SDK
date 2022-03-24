@@ -1,0 +1,803 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14C4FF3027EC317300213806 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C4FF2A27EC317300213806 /* Order.swift */; };
+		14C4FF3127EC317300213806 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C4FF2B27EC317300213806 /* Currency.swift */; };
+		14C4FF3227EC317300213806 /* Banner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C4FF2C27EC317300213806 /* Banner.swift */; };
+		14C4FF3327EC317300213806 /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C4FF2E27EC317300213806 /* BannerView.swift */; };
+		14C4FF3427EC317300213806 /* Get4ClickSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C4FF2F27EC317300213806 /* Get4ClickSDK.swift */; };
+		1A67E485E1AE04F3B9A2749C844EA90E /* Pods-get4clickSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A0270800B7197BAB5CC4E6CADAB11B81 /* Pods-get4clickSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31CF09F7BF01532F424605C2F843590C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		40F8E1A2FF5EC0BFF917E55723DFBFE7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5EDC339CEED29877236E3D8825AEDCB9 /* get4clickSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C2715016E1059C7B1913F85100B16C6 /* get4clickSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FBE4BCC3BCB66BCA9055D28A9B37E84 /* Pods-get4clickSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 55D32936FAF8B56F82F65BA623E579CC /* Pods-get4clickSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7FE7E99FE5FE965ADEF6EFAC17878A4C /* get4clickSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C43FB3830E1E959E2848246742074D0 /* get4clickSDK-dummy.m */; };
+		9094E381C888DF92E4AB9033DF63D467 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		95B9522911E28BA8C46F5BC8E3C10AE3 /* Pods-get4clickSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46CADADE1B302EB2A104019BDE257C60 /* Pods-get4clickSDK_Example-dummy.m */; };
+		A0FA79BDCA73C58D0E0D7A77A96D85A2 /* Pods-get4clickSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAFBB3063625CEE3076158D640BC4FD /* Pods-get4clickSDK_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32475BBD9FB9DFF59B8FEA179B55CDF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF19DAFEFCF301DE52037E671337D39F;
+			remoteInfo = "Pods-get4clickSDK_Example";
+		};
+		922B226FEBCA78AB8194742945AC707F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63814F48D9C12569264BA9FDB71AF68B;
+			remoteInfo = get4clickSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		017DAFA7A10D76B77945AF05758EFA0F /* Pods-get4clickSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-get4clickSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		0B63AFA556E98E0E601416CDEBABEA4E /* get4clickSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = get4clickSDK.debug.xcconfig; sourceTree = "<group>"; };
+		0C2715016E1059C7B1913F85100B16C6 /* get4clickSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "get4clickSDK-umbrella.h"; sourceTree = "<group>"; };
+		14C4FF2A27EC317300213806 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		14C4FF2B27EC317300213806 /* Currency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		14C4FF2C27EC317300213806 /* Banner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Banner.swift; sourceTree = "<group>"; };
+		14C4FF2E27EC317300213806 /* BannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
+		14C4FF2F27EC317300213806 /* Get4ClickSDK.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Get4ClickSDK.swift; sourceTree = "<group>"; };
+		16746FDD4DAD59B57CC3AF38B286DD99 /* Pods-get4clickSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-get4clickSDK_Tests.modulemap"; sourceTree = "<group>"; };
+		2C43FB3830E1E959E2848246742074D0 /* get4clickSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "get4clickSDK-dummy.m"; sourceTree = "<group>"; };
+		3112CC2F6D0294A6A02310683494CD9D /* Pods-get4clickSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-get4clickSDK_Example-Info.plist"; sourceTree = "<group>"; };
+		32C093F6C5B891CAABCA0E6BD40F49D3 /* get4clickSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = get4clickSDK.release.xcconfig; sourceTree = "<group>"; };
+		339F8F6FD2F533F629FDA32E6DD4A5C5 /* Pods-get4clickSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-get4clickSDK_Tests-Info.plist"; sourceTree = "<group>"; };
+		36C80A4E3CB8198A9A138435B0EB159F /* Pods-get4clickSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-get4clickSDK_Example.modulemap"; sourceTree = "<group>"; };
+		44EF8063F273F08D1BD8EF5B07853339 /* Pods-get4clickSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-get4clickSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		46BE89DA7BB123FED2998DC8585987BB /* Pods-get4clickSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-get4clickSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		46CADADE1B302EB2A104019BDE257C60 /* Pods-get4clickSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-get4clickSDK_Example-dummy.m"; sourceTree = "<group>"; };
+		50D71C73941BDC7B169E4A05617EBAB9 /* Pods_get4clickSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_get4clickSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55D32936FAF8B56F82F65BA623E579CC /* Pods-get4clickSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-get4clickSDK_Example-umbrella.h"; sourceTree = "<group>"; };
+		5FA801B9EC329E4D417EF04188A63F76 /* Pods-get4clickSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-get4clickSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		66F6876D36DAB5C34FBDB38A6D0E29F8 /* get4clickSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "get4clickSDK-Info.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		81F073E5895E12EF5C1C410A1B939D72 /* get4clickSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "get4clickSDK-prefix.pch"; sourceTree = "<group>"; };
+		928F6171CB7FB69545709C78A82AA3E6 /* get4clickSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = get4clickSDK.modulemap; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0270800B7197BAB5CC4E6CADAB11B81 /* Pods-get4clickSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-get4clickSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B412CD68993420957E33E24B50B117DB /* Pods-get4clickSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-get4clickSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BE4BF13CFF14E164E2397BE06DE37530 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C02B3579C326AC7F383FE5B73F2C49BA /* Pods-get4clickSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-get4clickSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
+		C633B912A02AD279CF8DD4F8F5AC5FF8 /* Pods-get4clickSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-get4clickSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		CDAFBB3063625CEE3076158D640BC4FD /* Pods-get4clickSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-get4clickSDK_Tests-dummy.m"; sourceTree = "<group>"; };
+		E3E947C05A524144F3169D9DB7A151B5 /* get4clickSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = get4clickSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E45A492DA42DB785FB5D43EAABD35FC7 /* Pods-get4clickSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-get4clickSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F18B5C0435DD318FED2AF7D523B1B4C2 /* Pods-get4clickSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-get4clickSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FC0BEED77DA3AD1E6D2BF74EC9D1487F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		FC93B5EC6234E011C2028EC83D059374 /* get4clickSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = get4clickSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FE38CE4BE1E646EF092372FBB5D1EBF4 /* Pods_get4clickSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_get4clickSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56F6B6408D819915EBE922169D8E3853 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31CF09F7BF01532F424605C2F843590C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		765AB2136BED4E66EB9AF8CB042A1C5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40F8E1A2FF5EC0BFF917E55723DFBFE7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B362FC2AD8588A47070786E4D0E74CC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9094E381C888DF92E4AB9033DF63D467 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14C4FF2927EC317300213806 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				14C4FF2A27EC317300213806 /* Order.swift */,
+				14C4FF2B27EC317300213806 /* Currency.swift */,
+				14C4FF2C27EC317300213806 /* Banner.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		14C4FF2D27EC317300213806 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				14C4FF2E27EC317300213806 /* BannerView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		43E3096B51E685439761E2E4385AE19F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				90B5814B5C3629C835ED55C9C71D9942 /* Pods-get4clickSDK_Example */,
+				EFF73B68EE569EEDF3AC5F6A44B2BDEE /* Pods-get4clickSDK_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		80F6ADE0CF2FA814DCFDCB0E7F7095B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3E947C05A524144F3169D9DB7A151B5 /* get4clickSDK.framework */,
+				FE38CE4BE1E646EF092372FBB5D1EBF4 /* Pods_get4clickSDK_Example.framework */,
+				50D71C73941BDC7B169E4A05617EBAB9 /* Pods_get4clickSDK_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90B5814B5C3629C835ED55C9C71D9942 /* Pods-get4clickSDK_Example */ = {
+			isa = PBXGroup;
+			children = (
+				36C80A4E3CB8198A9A138435B0EB159F /* Pods-get4clickSDK_Example.modulemap */,
+				F18B5C0435DD318FED2AF7D523B1B4C2 /* Pods-get4clickSDK_Example-acknowledgements.markdown */,
+				C633B912A02AD279CF8DD4F8F5AC5FF8 /* Pods-get4clickSDK_Example-acknowledgements.plist */,
+				46CADADE1B302EB2A104019BDE257C60 /* Pods-get4clickSDK_Example-dummy.m */,
+				C02B3579C326AC7F383FE5B73F2C49BA /* Pods-get4clickSDK_Example-frameworks.sh */,
+				3112CC2F6D0294A6A02310683494CD9D /* Pods-get4clickSDK_Example-Info.plist */,
+				55D32936FAF8B56F82F65BA623E579CC /* Pods-get4clickSDK_Example-umbrella.h */,
+				B412CD68993420957E33E24B50B117DB /* Pods-get4clickSDK_Example.debug.xcconfig */,
+				5FA801B9EC329E4D417EF04188A63F76 /* Pods-get4clickSDK_Example.release.xcconfig */,
+			);
+			name = "Pods-get4clickSDK_Example";
+			path = "Target Support Files/Pods-get4clickSDK_Example";
+			sourceTree = "<group>";
+		};
+		9D96ADC6716DE62CBD0D30E188AFC6D0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				928F6171CB7FB69545709C78A82AA3E6 /* get4clickSDK.modulemap */,
+				2C43FB3830E1E959E2848246742074D0 /* get4clickSDK-dummy.m */,
+				66F6876D36DAB5C34FBDB38A6D0E29F8 /* get4clickSDK-Info.plist */,
+				81F073E5895E12EF5C1C410A1B939D72 /* get4clickSDK-prefix.pch */,
+				0C2715016E1059C7B1913F85100B16C6 /* get4clickSDK-umbrella.h */,
+				0B63AFA556E98E0E601416CDEBABEA4E /* get4clickSDK.debug.xcconfig */,
+				32C093F6C5B891CAABCA0E6BD40F49D3 /* get4clickSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/get4clickSDK";
+			sourceTree = "<group>";
+		};
+		C4707BBF5839E09802544893BDB0462F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C842F5E43239F4B889359571879B252C /* get4clickSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C842F5E43239F4B889359571879B252C /* get4clickSDK */ = {
+			isa = PBXGroup;
+			children = (
+				14C4FF2F27EC317300213806 /* Get4ClickSDK.swift */,
+				14C4FF2927EC317300213806 /* models */,
+				14C4FF2D27EC317300213806 /* views */,
+				E566DB6AB318262CDD169445E1D4D5E4 /* Pod */,
+				9D96ADC6716DE62CBD0D30E188AFC6D0 /* Support Files */,
+			);
+			name = get4clickSDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				C4707BBF5839E09802544893BDB0462F /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				80F6ADE0CF2FA814DCFDCB0E7F7095B4 /* Products */,
+				43E3096B51E685439761E2E4385AE19F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E566DB6AB318262CDD169445E1D4D5E4 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				FC93B5EC6234E011C2028EC83D059374 /* get4clickSDK.podspec */,
+				FC0BEED77DA3AD1E6D2BF74EC9D1487F /* LICENSE */,
+				BE4BF13CFF14E164E2397BE06DE37530 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		EFF73B68EE569EEDF3AC5F6A44B2BDEE /* Pods-get4clickSDK_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				16746FDD4DAD59B57CC3AF38B286DD99 /* Pods-get4clickSDK_Tests.modulemap */,
+				44EF8063F273F08D1BD8EF5B07853339 /* Pods-get4clickSDK_Tests-acknowledgements.markdown */,
+				E45A492DA42DB785FB5D43EAABD35FC7 /* Pods-get4clickSDK_Tests-acknowledgements.plist */,
+				CDAFBB3063625CEE3076158D640BC4FD /* Pods-get4clickSDK_Tests-dummy.m */,
+				339F8F6FD2F533F629FDA32E6DD4A5C5 /* Pods-get4clickSDK_Tests-Info.plist */,
+				A0270800B7197BAB5CC4E6CADAB11B81 /* Pods-get4clickSDK_Tests-umbrella.h */,
+				46BE89DA7BB123FED2998DC8585987BB /* Pods-get4clickSDK_Tests.debug.xcconfig */,
+				017DAFA7A10D76B77945AF05758EFA0F /* Pods-get4clickSDK_Tests.release.xcconfig */,
+			);
+			name = "Pods-get4clickSDK_Tests";
+			path = "Target Support Files/Pods-get4clickSDK_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B12D871410F57B449EC04010CBFB0E87 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FBE4BCC3BCB66BCA9055D28A9B37E84 /* Pods-get4clickSDK_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7971210ECFE8133E53225E04DBD1605 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EDC339CEED29877236E3D8825AEDCB9 /* get4clickSDK-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D94CA6B74AD2F7D149136A8B1656E0AF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A67E485E1AE04F3B9A2749C844EA90E /* Pods-get4clickSDK_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		63814F48D9C12569264BA9FDB71AF68B /* get4clickSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FB59A196CD31E309085A1739A9AD523 /* Build configuration list for PBXNativeTarget "get4clickSDK" */;
+			buildPhases = (
+				B7971210ECFE8133E53225E04DBD1605 /* Headers */,
+				7D52D6A27D54BA8A1D0CB9ACD0859532 /* Sources */,
+				765AB2136BED4E66EB9AF8CB042A1C5B /* Frameworks */,
+				3F842B4BD3DA3A4E1DCD89EA941C0741 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = get4clickSDK;
+			productName = get4clickSDK;
+			productReference = E3E947C05A524144F3169D9DB7A151B5 /* get4clickSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DF19DAFEFCF301DE52037E671337D39F /* Pods-get4clickSDK_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C29A5A72F0CAF72F49838ED29EA7517 /* Build configuration list for PBXNativeTarget "Pods-get4clickSDK_Example" */;
+			buildPhases = (
+				B12D871410F57B449EC04010CBFB0E87 /* Headers */,
+				F0B5DED272CBE73D514390E164A7C9A3 /* Sources */,
+				B362FC2AD8588A47070786E4D0E74CC3 /* Frameworks */,
+				A11690AF790ED5AF6BE2A1EDA0F093C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D122DAA3934A82635B302EF031F96EA /* PBXTargetDependency */,
+			);
+			name = "Pods-get4clickSDK_Example";
+			productName = "Pods-get4clickSDK_Example";
+			productReference = FE38CE4BE1E646EF092372FBB5D1EBF4 /* Pods_get4clickSDK_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EA6D6FEB2530028A1F2CD79C25772891 /* Pods-get4clickSDK_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D067A0C3890AA6154733B299BA7E3D94 /* Build configuration list for PBXNativeTarget "Pods-get4clickSDK_Tests" */;
+			buildPhases = (
+				D94CA6B74AD2F7D149136A8B1656E0AF /* Headers */,
+				9F202B25CB1AB326AB2B6C314D40136D /* Sources */,
+				56F6B6408D819915EBE922169D8E3853 /* Frameworks */,
+				18D4187CC885720C9220132F74E50EE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8C7B897A10D7351FE3C547403BA88A5 /* PBXTargetDependency */,
+			);
+			name = "Pods-get4clickSDK_Tests";
+			productName = "Pods-get4clickSDK_Tests";
+			productReference = 50D71C73941BDC7B169E4A05617EBAB9 /* Pods_get4clickSDK_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 80F6ADE0CF2FA814DCFDCB0E7F7095B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63814F48D9C12569264BA9FDB71AF68B /* get4clickSDK */,
+				DF19DAFEFCF301DE52037E671337D39F /* Pods-get4clickSDK_Example */,
+				EA6D6FEB2530028A1F2CD79C25772891 /* Pods-get4clickSDK_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18D4187CC885720C9220132F74E50EE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F842B4BD3DA3A4E1DCD89EA941C0741 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A11690AF790ED5AF6BE2A1EDA0F093C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D52D6A27D54BA8A1D0CB9ACD0859532 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14C4FF3127EC317300213806 /* Currency.swift in Sources */,
+				14C4FF3027EC317300213806 /* Order.swift in Sources */,
+				14C4FF3327EC317300213806 /* BannerView.swift in Sources */,
+				14C4FF3427EC317300213806 /* Get4ClickSDK.swift in Sources */,
+				14C4FF3227EC317300213806 /* Banner.swift in Sources */,
+				7FE7E99FE5FE965ADEF6EFAC17878A4C /* get4clickSDK-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F202B25CB1AB326AB2B6C314D40136D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0FA79BDCA73C58D0E0D7A77A96D85A2 /* Pods-get4clickSDK_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0B5DED272CBE73D514390E164A7C9A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95B9522911E28BA8C46F5BC8E3C10AE3 /* Pods-get4clickSDK_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D122DAA3934A82635B302EF031F96EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = get4clickSDK;
+			target = 63814F48D9C12569264BA9FDB71AF68B /* get4clickSDK */;
+			targetProxy = 922B226FEBCA78AB8194742945AC707F /* PBXContainerItemProxy */;
+		};
+		B8C7B897A10D7351FE3C547403BA88A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-get4clickSDK_Example";
+			target = DF19DAFEFCF301DE52037E671337D39F /* Pods-get4clickSDK_Example */;
+			targetProxy = 32475BBD9FB9DFF59B8FEA179B55CDF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03A5E5DE7EDD66737769BB3EFA912118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32C093F6C5B891CAABCA0E6BD40F49D3 /* get4clickSDK.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/get4clickSDK/get4clickSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/get4clickSDK/get4clickSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				MODULEMAP_FILE = "Target Support Files/get4clickSDK/get4clickSDK.modulemap";
+				PRODUCT_MODULE_NAME = get4clickSDK;
+				PRODUCT_NAME = get4clickSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		04F6635E72AD0A813AF8520F6DE964F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B63AFA556E98E0E601416CDEBABEA4E /* get4clickSDK.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/get4clickSDK/get4clickSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/get4clickSDK/get4clickSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				MODULEMAP_FILE = "Target Support Files/get4clickSDK/get4clickSDK.modulemap";
+				PRODUCT_MODULE_NAME = get4clickSDK;
+				PRODUCT_NAME = get4clickSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		20B42192A337F722652771CB52B52792 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B412CD68993420957E33E24B50B117DB /* Pods-get4clickSDK_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-get4clickSDK_Example/Pods-get4clickSDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-get4clickSDK_Example/Pods-get4clickSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		232D6D679941944F1EC35CABDA2BC689 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FA801B9EC329E4D417EF04188A63F76 /* Pods-get4clickSDK_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-get4clickSDK_Example/Pods-get4clickSDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-get4clickSDK_Example/Pods-get4clickSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		534B1A3559D874120B10DE036BCA2FA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46BE89DA7BB123FED2998DC8585987BB /* Pods-get4clickSDK_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-get4clickSDK_Tests/Pods-get4clickSDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-get4clickSDK_Tests/Pods-get4clickSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		EEFA497E9DB2CC704D792AF0176253D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 017DAFA7A10D76B77945AF05758EFA0F /* Pods-get4clickSDK_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-get4clickSDK_Tests/Pods-get4clickSDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-get4clickSDK_Tests/Pods-get4clickSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FB59A196CD31E309085A1739A9AD523 /* Build configuration list for PBXNativeTarget "get4clickSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F6635E72AD0A813AF8520F6DE964F0 /* Debug */,
+				03A5E5DE7EDD66737769BB3EFA912118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C29A5A72F0CAF72F49838ED29EA7517 /* Build configuration list for PBXNativeTarget "Pods-get4clickSDK_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20B42192A337F722652771CB52B52792 /* Debug */,
+				232D6D679941944F1EC35CABDA2BC689 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D067A0C3890AA6154733B299BA7E3D94 /* Build configuration list for PBXNativeTarget "Pods-get4clickSDK_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				534B1A3559D874120B10DE036BCA2FA1 /* Debug */,
+				EEFA497E9DB2CC704D792AF0176253D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
