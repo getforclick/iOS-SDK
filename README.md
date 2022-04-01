@@ -1,5 +1,5 @@
-# GET4Click SDK IOS
-Это SDK для GET4Click , Swift(IOS) в будущем релизе возможен переход на Kotlin Multiplatform
+# Get4Click SDK IOS
+Это SDK для Get4Click , Swift(IOS) в будущем релизе возможен переход на Kotlin Multiplatform
 
 [![CI Status](https://img.shields.io/travis/igorexax3mal/get4clickSDK.svg?style=flat)](https://travis-ci.org/igorexax3mal/get4clickSDK)
 [![Version](https://img.shields.io/cocoapods/v/get4clickSDK.svg?style=flat)](https://cocoapods.org/pods/get4clickSDK)
@@ -24,7 +24,7 @@
    import get4clickSDK
 
 
-   GET4ClickSDK.shared.initSDK(863)
+   Get4Click.shared.initSDK(863)
 ```
 
 
@@ -32,9 +32,9 @@
 Чтобы собрать параметры для заказа воспользуйтесь паттерном builder для обьекта order 
 
 ```swift
-    GET4ClickSDK.shared.getCurrentOrder().
-                    setCustomerFirstName('name').
-                    setCustomerLastName('lastname')...
+    Get4Click.shared.getCurrentOrder().
+                    setCustomerFirstName("name").
+                    setCustomerLastName("lastname")...
 
  ```
 
@@ -75,7 +75,7 @@
 let banner = Banner(bannerId, order)
  ```
  
-для удобства есть метод формирования обькета Banner для текущего Order в GET4ClickSDK.getBannerWithCurrentOrder(bannerId)
+для удобства есть метод формирования обькета Banner для текущего Order в Get4Click.getBannerWithCurrentOrder(bannerId)
 
 
 Вызовите метод showBanner(banner) у BannerView когда будете готовы 
@@ -88,7 +88,7 @@ bannerView.showBanner(banner)
 
 У метода showBanner() есть не обязательный параметр scale : Double - можно уменьшить или увеличить баннер (по умолчанию 1.0)
 
-Вызовите метод  GET4ClickSDK.shared.resetCurrentOrder() для сброса текущего Order
+Вызовите метод  Get4Click.shared.resetCurrentOrder() для сброса текущего Order
 
 Полный код выглядит так :
 ```swift
@@ -96,6 +96,9 @@ bannerView.showBanner(banner)
         @IBOutlet bannerView : BannerView
         
         Get4ClickSDK.shared.initSdk(863)
+
+       //Сброс текущего заказа
+        Get4Click.shared.resetCurrentOrder() 
 
        //Где-то на экранах создания заказа по шагам 
         Get4ClickSDK.shared.getCurrentOrder().customerFirstName = "FirstName"

@@ -31,7 +31,7 @@ public class Banner {
         "<HEAD><meta name=\"viewport\" content=\"width=device-width,height=device-height,initial-scale=\(scale), shrink-to-fit=no\"></HEAD>" +
                 "<body>" +
                 "<div id=\"promocode-element-container\"></div>" +
-                "script type=\"text/javascript\">\n" +
+                "<script type=\"text/javascript\">\n" +
                 "var _iPromoBannerObj = function() {\n" +
                 "this.htmlElementId = 'promocode-element-container';\n" +
                 "this.params = {\n" +
@@ -43,7 +43,7 @@ public class Banner {
                 "var r=[];for(e in this.params){if(typeof(e)==='string'){r.push(e+'='+encodeURIComponent(this.params[e]));}}r.push('method=main');r.push('jsc=iPromoCpnObj');this.lS(('https:'==document.location.protocol ? 'https://':'http://')+'get4click.ru/wrapper.php?'+r.join('&'));};\n" +
                 "\n" +
                 "var iPromoCpnObj = new _iPromoBannerObj();\n" +
-                "</script>\n" +
+                "</script>" +
                 "</body>" +
                 "</html>"
         return string

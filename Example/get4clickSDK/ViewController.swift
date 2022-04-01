@@ -27,7 +27,7 @@ class ViewController: UIViewController {
 
        
         let banner = Get4ClickSDK.shared.getBannerWithCurrentOrder(bannerId: 2804)
-        bannerView.showDebugBanner(banner: banner, scale: 1.0)
+        bannerView.showBanner(banner: banner, scale: 1.0)
         
     }
 
